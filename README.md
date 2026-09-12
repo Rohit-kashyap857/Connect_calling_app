@@ -9,19 +9,19 @@
 ## 📱 App Screenshots
 
 <p align="center">
-  <img src="assets/screenshot/login.png" width="120" alt=""/>
-  <img src="assets/screenshot/signup.png" width="120" alt=""/>
-  <img src="assets/screenshot/home.png" width="120" alt=""/>
-  <img src="assets/screenshot/profile.png" width="120" alt=""/>
-  <img src="assets/screenshot/change_profile.png" width="120" alt=""/>
+  <img src="assets/screenshot/login.png" width="220" alt=""/>
+  <img src="assets/screenshot/signup.png" width="220" alt=""/>
+  <img src="assets/screenshot/home.png" width="220" alt=""/>
+  <img src="assets/screenshot/profile.png" width="220" alt=""/>
+  <img src="assets/screenshot/change_profile.png" width="220" alt=""/>
 </p>
 
 <p align="center">
-  <img src="assets/screenshot/contacts.png" width="120" alt=""/>
-  <img src="assets/screenshot/call_history.png" width="120" alt=""/>
-<img src="assets/screenshot/delete_call_history.png" width="120" alt=""/>
-  <img src="assets/screenshot/incoming_call.png" width="120" alt=""/>
-  <img src="assets/screenshot/active_call.png" width="120" alt=""/>
+  <img src="assets/screenshot/contacts.png" width="220" alt=""/>
+  <img src="assets/screenshot/call_history.png" width="220" alt=""/>
+<img src="assets/screenshot/delete_call_history.png" width="220" alt=""/>
+  <img src="assets/screenshot/incoming_call.png" width="220" alt=""/>
+  <img src="assets/screenshot/active_call.png" width="220" alt=""/>
 </p>
 
 <p align="center">
