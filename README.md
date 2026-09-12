@@ -9,27 +9,27 @@
 ## 📱 App Screenshots
 
 <p align="center">
-  <img src="assets/screenshot/login.png" width="781" alt=""/>
-  <img src="assets/screenshot/signup.png" width="779" alt=""/>
-  <img src="assets/screenshot/home.png" width="754" alt=""/>
-  <img src="assets/screenshot/profile.png" width="766" alt=""/>
-  <img src="assets/screenshot/change_profile.png" width="770" alt=""/>
+  <img src="assets/screenshot/login.png" width="120" alt=""/>
+  <img src="assets/screenshot/signup.png" width="120" alt=""/>
+  <img src="assets/screenshot/home.png" width="120" alt=""/>
+  <img src="assets/screenshot/profile.png" width="120" alt=""/>
+  <img src="assets/screenshot/change_profile.png" width="120" alt=""/>
 </p>
 
 <p align="center">
-  <img src="assets/screenshot/contacts.png" width="754" alt=""/>
-  <img src="assets/screenshot/call_history.png" width="763" alt=""/>
-<img src="assets/screenshot/delete_call_history.png" width="795" alt=""/>
-  <img src="assets/screenshot/incoming_call.png" width="772" alt=""/>
-  <img src="assets/screenshot/active_call.png" width="772" alt=""/>
+  <img src="assets/screenshot/contacts.png" width="120" alt=""/>
+  <img src="assets/screenshot/call_history.png" width="120" alt=""/>
+<img src="assets/screenshot/delete_call_history.png" width="120" alt=""/>
+  <img src="assets/screenshot/incoming_call.png" width="120" alt=""/>
+  <img src="assets/screenshot/active_call.png" width="120" alt=""/>
 </p>
 
 <p align="center">
-  <img src="assets/screenshot/active_video_call.png" width="807" alt=""/>
-  <img src="assets/screenshot/search.png" width="783" alt=""/>
-  <img src="assets/screenshot/add_contact.png" width="1080" alt=""/>
-  <img src="assets/screenshot/theme1.png" width="772" alt=""/>
-  <img src="assets/screenshot/theme2.png" width="766" alt=""/>
+  <img src="assets/screenshot/active_video_call.png" width="120" alt=""/>
+  <img src="assets/screenshot/search.png" width="120" alt=""/>
+  <img src="assets/screenshot/add_contact.png" width="120" alt=""/>
+  <img src="assets/screenshot/theme1.png" width="120" alt=""/>
+  <img src="assets/screenshot/theme2.png" width="120" alt=""/>
 </p>
 
 ## 🎬 Demo
@@ -37,7 +37,7 @@
 <p align="center">
 
   <a href="assets/screen_recording/calling_app_demo.mp4">
-    <img src="assets/screenshot/home.png" width="754" alt=""/>
+    <img src="assets/screenshot/home.png" width="150" alt=""/>
   </a>
 
 </p>
@@ -509,5 +509,6 @@ Important scenarios to test:
 
 | **👤 Developer** | **💼 Role** | **🛠️ Expertise** |
 |---|---|---|
-|**Rohit Kashyap** | Flutter Developer | Mobile Application Development |#   C o n n e c t _ c a l l i n g _ a p p  
+|**Rohit Kashyap** | Flutter Developer | Mobile Application Development |#   C o n n e c t _ c a l l i n g _ a p p 
+ 
  
