@@ -13,20 +13,22 @@
   <img src="assets/screenshot/signup.png" width="220" alt=""/>
   <img src="assets/screenshot/home.png" width="220" alt=""/>
   <img src="assets/screenshot/profile.png" width="220" alt=""/>
-  <img src="assets/screenshot/change_profile.png" width="220" alt=""/>
 </p>
 
 <p align="center">
+  <img src="assets/screenshot/change_profile.png" width="220" alt=""/>
   <img src="assets/screenshot/contacts.png" width="220" alt=""/>
   <img src="assets/screenshot/call_history.png" width="220" alt=""/>
 <img src="assets/screenshot/delete_call_history.png" width="220" alt=""/>
-  <img src="assets/screenshot/incoming_call.png" width="220" alt=""/>
-  <img src="assets/screenshot/active_call.png" width="220" alt=""/>
 </p>
 
 <p align="center">
+   <img src="assets/screenshot/incoming_call.png" width="220" alt=""/>
+  <img src="assets/screenshot/active_call.png" width="220" alt=""/>
   <img src="assets/screenshot/active_video_call.png" width="220" alt=""/>
   <img src="assets/screenshot/search.png" width="220" alt=""/>
+</p>
+<p align="center">
   <img src="assets/screenshot/add_contact.png" width="220" alt=""/>
   <img src="assets/screenshot/theme1.png" width="220" alt=""/>
   <img src="assets/screenshot/theme2.png" width="220" alt=""/>
@@ -37,7 +39,7 @@
 <p align="center">
 
   <a href="assets/screen_recording/calling_app_demo.mp4">
-    <img src="assets/screenshot/home.png" width="250" alt=""/>
+    <img src="assets/screenshot/home.png" width="350" alt=""/>
   </a>
 
 </p>
