@@ -1,7 +1,27 @@
 # 📞 ConnectCall
 
 <p align="center">
-  <b>A modern Flutter calling application with real-time communication, Firebase integration, and a clean UI.</b>
+  <img src="assets/images/app_icon.png" width="110" alt="ConnectCall Logo"/>
+</p>
+
+<h2 align="center">🚀 Real-Time Audio & Video Calling Application</h2>
+
+<p align="center">
+  A modern Flutter communication app built with Firebase, WebRTC, FCM and Riverpod.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-Integrated-FFCA28?logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/WebRTC-Audio%20%26%20Video-333333" />
+  <img src="https://img.shields.io/badge/Riverpod-State%20Management-6C63FF" />
+  <img src="https://img.shields.io/badge/GoRouter-Navigation-00A67E" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-Supported-3DDC84?logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
 </p>
 
 ---
@@ -9,128 +29,163 @@
 ## 📱 App Screenshots
 
 <p align="center">
-  <img src="assets/screenshot/login.png" width="220" alt=""/>
-  <img src="assets/screenshot/signup.png" width="220" alt=""/>
-  <img src="assets/screenshot/home.png" width="220" alt=""/>
-  <img src="assets/screenshot/profile.png" width="220" alt=""/>
+  <img src="assets/screenshot/login.png" width="210" alt="Login Screen"/>
+  <img src="assets/screenshot/signup.png" width="210" alt="Signup Screen"/>
+  <img src="assets/screenshot/home.png" width="210" alt="Home Screen"/>
+  <img src="assets/screenshot/profile.png" width="210" alt="Profile Screen"/>
 </p>
 
 <p align="center">
-  <img src="assets/screenshot/change_profile.png" width="220" alt=""/>
-  <img src="assets/screenshot/contacts.png" width="220" alt=""/>
-  <img src="assets/screenshot/call_history.png" width="220" alt=""/>
-<img src="assets/screenshot/delete_call_history.png" width="220" alt=""/>
+  <img src="assets/screenshot/change_profile.png" width="210" alt="Change Profile"/>
+  <img src="assets/screenshot/contacts.png" width="210" alt="Contacts"/>
+  <img src="assets/screenshot/call_history.png" width="210" alt="Call History"/>
+  <img src="assets/screenshot/delete_call_history.png" width="210" alt="Delete Call History"/>
 </p>
 
 <p align="center">
-   <img src="assets/screenshot/incoming_call.png" width="220" alt=""/>
-  <img src="assets/screenshot/active_call.png" width="220" alt=""/>
-  <img src="assets/screenshot/active_video_call.png" width="220" alt=""/>
-  <img src="assets/screenshot/search.png" width="220" alt=""/>
+  <img src="assets/screenshot/incoming_call.png" width="210" alt="Incoming Call"/>
+  <img src="assets/screenshot/active_call.png" width="210" alt="Active Audio Call"/>
+  <img src="assets/screenshot/active_video_call.png" width="210" alt="Active Video Call"/>
+  <img src="assets/screenshot/search.png" width="210" alt="Search"/>
 </p>
+
 <p align="center">
-  <img src="assets/screenshot/add_contact.png" width="220" alt=""/>
-  <img src="assets/screenshot/theme1.png" width="220" alt=""/>
-  <img src="assets/screenshot/theme2.png" width="220" alt=""/>
+  <img src="assets/screenshot/add_contact.png" width="210" alt="Add Contact"/>
+  <img src="assets/screenshot/theme1.png" width="210" alt="Light Theme"/>
+  <img src="assets/screenshot/theme2.png" width="210" alt="Dark Theme"/>
 </p>
+
+---
 
 ## 🎬 Demo
 
 <p align="center">
-
   <a href="assets/screen_recording/calling_app_demo.mp4">
-    <img src="assets/screenshot/home.png" width="350" alt=""/>
+    <img src="assets/screenshot/home.png" width="420" alt="ConnectCall Demo"/>
   </a>
-
 </p>
 
 <p align="center">
-  <b>▶ Click the preview to watch the complete app demonstration</b>
+  <b>▶ Click the preview above to watch the complete app demonstration.</b>
 </p>
+
 ---
 
 ## ✨ Overview
 
 **ConnectCall** is a Flutter-based real-time communication application designed for seamless **audio and video calling**.
 
-The application combines **Flutter, Firebase, WebRTC, Firebase Cloud Messaging, and Riverpod** to provide a smooth calling experience with real-time call status synchronization.
+The application combines **Flutter, Firebase, WebRTC, Firebase Cloud Messaging, Riverpod, GoRouter and SharedPreferences** to provide a smooth and responsive calling experience with real-time call status synchronization.
 
-It includes user authentication, contacts, call history, incoming-call notifications, audio/video calls, profile management, and theme customization.
+### 🎯 What ConnectCall Provides
+
+- 🔐 Secure user authentication
+- 👥 Contact management
+- 🔎 User search
+- 🟢 Online/offline status
+- 📞 Real-time audio calling
+- 🎥 Real-time video calling
+- 🔔 Incoming call notifications
+- 📊 Call history
+- ⏱️ Call duration tracking
+- 🌙 Light & Dark themes
+- 🔄 Real-time call-state synchronization
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-### 🔐 Authentication
+## 🔐 Authentication
+
 - Firebase Authentication
-- Login & Signup
+- Login
+- Signup
 - User profile creation
 - Profile completion flow
 - Secure user sessions
 
-### 👥 Contacts
+---
+
+## 👥 Contacts
+
 - Search users
 - Add contacts
 - Contact list
 - User profile information
 - Online/offline status
 
-### 📞 Calling
+---
+
+## 📞 Audio & Video Calling
+
 - 📱 Audio calling
 - 🎥 Video calling
-- Incoming call screen
-- Accept / Decline calls
-- End calls
-- Call duration tracking
-- Real-time call status
-- Automatic call cleanup
-- Missed call handling
+- 📲 Incoming call screen
+- ✅ Accept calls
+- ❌ Decline calls
+- 🔴 End calls
+- ⏱️ Call duration tracking
+- 🔄 Real-time call status synchronization
+- 🧹 Automatic call cleanup
+- 📵 Missed call handling
 
-### 🔔 Notifications
+---
+
+## 🔔 Notifications
+
 - Firebase Cloud Messaging
 - Incoming call notifications
 - Background call handling
 - Native CallKit integration
 - Call accept / decline actions
-
-### 📊 Call History
-- Incoming calls
-- Outgoing calls
-- Call duration
-- Call status
-- Real-time history updates
-
-### 🎨 UI & Theme
-- Modern responsive interface
-- Light mode ☀️
-- Dark mode 🌙
-- Animated call interface
-- Clean navigation
-- User-friendly design
+- Push notification synchronization
 
 ---
 
-## 🛠️ Tech Stack
+## 📊 Call History
+
+- 📥 Incoming calls
+- 📤 Outgoing calls
+- ⏱️ Call duration
+- 📌 Call status
+- 🔄 Real-time history updates
+- 🗑️ Delete call history
+
+---
+
+## 🎨 UI & Theme
+
+- Modern responsive interface
+- ☀️ Light Mode
+- 🌙 Dark Mode
+- Animated calling interface
+- Clean navigation
+- User-friendly design
+- Persistent theme preference
+
+---
+
+# 🛠️ Tech Stack
 
 | Technology | Purpose |
 |---|---|
-| **Flutter** | Cross-platform UI |
-| **Dart** | Programming language |
-| **Firebase Auth** | Authentication |
-| **Cloud Firestore** | Real-time database |
-| **Firebase Messaging** | Push notifications |
-| **WebRTC** | Audio & video communication |
+| **Flutter** | Cross-platform UI development |
+| **Dart** | Application programming language |
+| **Firebase Authentication** | User authentication |
+| **Cloud Firestore** | Real-time database & call signaling |
+| **Firebase Cloud Messaging** | Push notifications |
+| **WebRTC** | Real-time audio & video communication |
 | **Riverpod** | State management |
-| **GoRouter** | Navigation |
-| **SharedPreferences** | Local preferences |
-| **CallKit** | Native call UI |
+| **GoRouter** | Application navigation |
+| **SharedPreferences** | Local preference storage |
+| **CallKit** | Native call interface |
 | **Cloudflare Worker** | Push notification bridge |
 
 ---
 
-## 🏗️ Architecture
+# 🏗️ Project Architecture
 
-ConnectCall follows a clean, modular Flutter architecture.
+ConnectCall follows a modular Flutter architecture separating UI, state management, repositories, services and models.
 
 ```text
 lib/
@@ -174,129 +229,150 @@ lib/
 │
 └── main.dart
 ```
-## 🔄 Calling Flow
+
+---
+
+# 🔄 Calling Flow
 
 ```text
-        👤 Caller
-           │
-           ▼
-     Start Audio/Video Call
-           │
-           ▼
-     Create Call in Firestore
-           │
-           ▼
-     Send Push Notification
-           │
-           ▼
-        👤 Callee
-           │
-      ┌────┴────┐
-      ▼         ▼
-   Accept     Decline
-      │         │
-      ▼         ▼
-   WebRTC     Call Ended
-   Session
-      │
-      ▼
-  Audio/Video Call
-      │
-      ▼
-    End Call
-      │
-      ▼
- Update Firestore
-      │
-      ▼
-  Call History
+                  👤 CALLER
+                     │
+                     ▼
+             Start Audio/Video Call
+                     │
+                     ▼
+              Create Call Record
+                  Firestore
+                     │
+                     ▼
+             Send Push Notification
+                     │
+                     ▼
+                  👤 CALLEE
+                     │
+              ┌──────┴──────┐
+              ▼             ▼
+           ACCEPT         DECLINE
+              │             │
+              ▼             ▼
+            WebRTC       Call Ended
+           Connection
+              │
+              ▼
+        Audio / Video Call
+              │
+              ▼
+           END CALL
+              │
+              ▼
+       Update Firestore
+              │
+              ▼
+         Call History
 ```
-## 🔥 Firebase
 
-The application uses Firebase for real-time communication and user data.
+---
 
-Firebase Services
+# 🔥 Firebase Integration
+
+ConnectCall uses Firebase as the backend for authentication, real-time data and notifications.
+
+### Firebase Services
 
 ```text
 Firebase
 │
-├── Authentication
+├── 🔐 Authentication
 │
-├── Cloud Firestore
+├── ☁️ Cloud Firestore
 │
-└── Firebase Cloud Messaging
+└── 🔔 Firebase Cloud Messaging
 ```
-**Firestore stores:**
 
-* User profiles
-* Contacts
-* Call information
-* Call status
-* WebRTC offers
-* WebRTC answers
-* ICE candidates
-* Call duration
+### Firestore Stores
 
-## 🌐 WebRTC
+- User profiles
+- Contacts
+- Call information
+- Call status
+- WebRTC offers
+- WebRTC answers
+- ICE candidates
+- Call duration
 
-ConnectCall uses WebRTC to establish peer-to-peer audio and video communication.
+---
 
-WebRTC Signaling Flow
-```text
-Caller
-  │
-  ├── Create PeerConnection
-  │
-  ├── Create Offer
-  │
-  ▼
-Firestore
-  │
-  ▼
-Callee
-  │
-  ├── Receive Offer
-  ├── Create Answer
-  │
-  ▼
-Firestore
-  │
-  ▼
-Caller
-  │
-  ▼
-ICE Candidate Exchange
-  │
-  ▼
-🎥 Peer-to-Peer Connection
-```
-## 🔔 Incoming Call Handling
+# 🌐 WebRTC
 
-Incoming calls are synchronized using Firestore and push notifications.
+ConnectCall uses **WebRTC** for peer-to-peer real-time audio and video communication.
+
+### WebRTC Signaling Flow
 
 ```text
-Caller starts call
+              CALLER
+                 │
+                 ▼
+         Create PeerConnection
+                 │
+                 ▼
+            Create Offer
+                 │
+                 ▼
+             Firestore
+                 │
+                 ▼
+              CALLEE
+                 │
+                 ▼
+          Receive Offer
+                 │
+                 ▼
+          Create Answer
+                 │
+                 ▼
+             Firestore
+                 │
+                 ▼
+              CALLER
+                 │
+                 ▼
+       ICE Candidate Exchange
+                 │
+                 ▼
+        🎥 Peer-to-Peer Connection
+```
+
+---
+
+# 🔔 Incoming Call Handling
+
+Incoming calls are synchronized through **Firestore + FCM**.
+
+```text
+Caller Starts Call
         │
         ▼
-Firestore: ringing
+Firestore: RINGING
         │
         ├──────────────► FCM Push
         │
         ▼
-Callee receives notification
+Callee Receives Notification
         │
         ▼
 Incoming Call Screen
         │
-    ┌───┴────┐
-    ▼        ▼
- Accept   Decline
-    │        │
-    ▼        ▼
- Active    Ended
-   Call
+     ┌──┴──┐
+     ▼     ▼
+  ACCEPT  DECLINE
+     │       │
+     ▼       ▼
+  ACTIVE   ENDED
+   CALL
 ```
-If the caller ends the call before the callee answers:
+
+### Caller Ends Before Answer
+
 ```text
 Caller
   │
@@ -304,7 +380,7 @@ Caller
 End Call
   │
   ▼
-Firestore status = ended
+Firestore: status = ended
   │
   ▼
 Callee detects status change
@@ -315,123 +391,69 @@ Incoming screen closes
   ▼
 🏠 Home Screen
 ```
-## 🎨 Theme Support
 
-ConnectCall supports both light and dark themes.
+---
 
-**☀️ Light Mode**
+# 🎨 Theme Support
 
-Clean and bright interface for daytime usage.
+ConnectCall supports both **Light Mode** and **Dark Mode**.
 
-**🌙 Dark Mode**
+### ☀️ Light Mode
 
-Dark interface designed for comfortable usage in low-light environments.
+A clean and bright interface designed for comfortable daytime usage.
 
-The selected theme is stored locally using SharedPreferences.
+### 🌙 Dark Mode
 
-## 📱 Screens
+A dark interface designed for comfortable viewing in low-light environments.
 
-### Authentication
-```text
-┌─────────────────────────┐
-│      📞 ConnectCall     │
-│                         │
-│       Login             │
-│                         │
-│  Email                  │
-│  Password               │
-│                         │
-│      [ Login ]          │
-│                         │
-│   Create an account     │
-└─────────────────────────┘
-```
-### Home
-```text
-┌─────────────────────────┐
-│  ConnectCall       🔔   │
-├─────────────────────────┤
-│                         │
-│      Contacts            │
-│                         │
-│   👤 User 1    📞 🎥    │
-│   👤 User 2    📞 🎥    │
-│   👤 User 3    📞 🎥    │
-│                         │
-├─────────────────────────┤
-│ Contacts │ History │ 👤 │
-└─────────────────────────┘
-```
-### Incoming Call
-```text
-┌─────────────────────────┐
-│                         │
-│     📞 Incoming Call    │
-│                         │
-│          👤             │
-│                         │
-│       User Name         │
-│                         │
-│   ❌ Decline   Accept 📞 │
-│                         │
-└─────────────────────────┘
-```
-### Active Call
-```text
-┌─────────────────────────┐
-│                         │
-│       Video Call        │
-│                         │
-│          🎥             │
-│                         │
-│                         │
-│  🔇    📹    🔊    ❌   │
-│                         │
-└─────────────────────────┘
-```
-## ⚙️ Installation
-**1. Clone the repository****
-```text
-git clone <YOUR_REPOSITORY_URL>
-```
-****2. Open the project****
-```text
-cd connect_call
-```
-****3. Install dependencies****
-```text
-flutter pub get
-```
-**4. Configure Firebase**
+The selected theme preference is stored locally using **SharedPreferences**.
 
-Add your Firebase configuration files:
-```text
-android/app/google-services.json
-ios/Runner/GoogleService-Info.plist
-```
-Also configure:
-```text
-firebase_options.dart
-```
-**5. Run the application**
-```text
-flutter run
-```
-**📦 Build APK**
+---
 
-For Android release:
-```text
-flutter build apk --release
-```
-APK will be generated at:
-```text
-build/app/outputs/flutter-apk/release/app-release.apk
-```
-## 🔒 Firestore Security
+# 🧠 State Management
 
-The application protects call documents so users can only access calls in which they are participants.
+ConnectCall uses **Riverpod** for predictable and reactive application state management.
+
+### Important Providers
+
 ```text
+authStateProvider
+callControllerProvider
+incomingCallProvider
+callHistoryProvider
+themeModeProvider
+```
+
+This separates authentication, calls, call history and theme state into maintainable application components.
+
+---
+
+# 📂 Call State Machine
+
+```text
+                 RINGING
+                    │
+          ┌─────────┼─────────┐
+          │         │         │
+          ▼         ▼         ▼
+       ACCEPT    DECLINE    TIMEOUT
+          │         │         │
+          ▼         ▼         ▼
+       ONGOING   DECLINED    MISSED
+          │
+          ▼
+        ENDED
+```
+
+---
+
+# 🔒 Firestore Security
+
+Call documents are protected so users can access calls only when they are participants.
+
+```firestore
 match /calls/{callId} {
+
   allow read: if request.auth != null
               && (
                 resource.data.callerId == request.auth.uid ||
@@ -445,72 +467,161 @@ match /calls/{callId} {
                 );
 }
 ```
-## 🧠 State Management
 
-The project uses Riverpod for predictable and reactive state management.
+---
 
-### Important providers include:
-```text
-authStateProvider
-callControllerProvider
-incomingCallProvider
-callHistoryProvider
-themeModeProvider
+# ⚙️ Installation
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Rohit-kashyap857/Connect_calling_app.git
 ```
-This keeps authentication, calls, call history, and theme state separated and maintainable.
 
-### 📂 Main Call States
-```text
-Ringing
-   │
-   ├── Accept ──► Ongoing
-   │                 │
-   │                 ▼
-   │               Ended
-   │
-   ├── Decline ─► Declined
-   │
-   └── Timeout ─► Missed
+## 2️⃣ Open the Project
+
+```bash
+cd Connect_calling_app
 ```
-## 🧪 Testing
 
-Important scenarios to test:
+## 3️⃣ Install Dependencies
 
-* User signup
-* User login
-* Profile creation
-* Add contact
-* Search user
-* Audio call
-* Video call
-* Accept incoming call
-* Decline incoming call
-* Caller ends before callee accepts
-* Call history
-* Call duration
-* Missed calls
-* Push notification
-* Light/Dark theme
-* Online/offline status
+```bash
+flutter pub get
+```
 
-## 💡 Future Improvements
+## 4️⃣ Configure Firebase
 
-**Possible future enhancements:**
+Add the required Firebase configuration files:
 
-* 👥 Group calling
-* 💬 Real-time chat
-* 📎 File sharing
-* 🖼️ Profile pictures
-* 🔐 End-to-end encryption
-* 📱 Better background call handling
-* 🌐 TURN server support
-* 🔔 Advanced notification controls
-* 📈 Call analytics
+```text
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+```
 
-## 👨‍💻 Developer
+Also configure:
 
-| **👤 Developer** | **💼 Role** | **🛠️ Expertise** |
+```text
+firebase_options.dart
+```
+
+## 5️⃣ Run the Application
+
+```bash
+flutter run
+```
+
+---
+
+# 📦 Build APK
+
+For a standard release APK:
+
+```bash
+flutter build apk --release
+```
+
+For a smaller Android-specific APK:
+
+```bash
+flutter build apk --release --split-per-abi
+```
+
+Generated APKs:
+
+```text
+build/app/outputs/flutter-apk/
+
+├── app-armeabi-v7a-release.apk
+├── app-arm64-v8a-release.apk
+└── app-x86_64-release.apk
+```
+
+### ⭐ Recommended APK
+
+For most modern Android devices:
+
+```text
+app-arm64-v8a-release.apk
+```
+
+---
+
+# 🧪 Testing Checklist
+
+- [x] User signup
+- [x] User login
+- [x] Profile creation
+- [x] Edit profile
+- [x] Add contact
+- [x] Search user
+- [x] Online/offline status
+- [x] Audio calling
+- [x] Video calling
+- [x] Accept incoming call
+- [x] Decline incoming call
+- [x] End call
+- [x] Caller ends before callee accepts
+- [x] Call history
+- [x] Delete call history
+- [x] Call duration
+- [x] Missed calls
+- [x] Push notifications
+- [x] Light Mode
+- [x] Dark Mode
+
+---
+
+# 💡 Future Improvements
+
+Possible future enhancements include:
+
+- 👥 Group calling
+- 💬 Real-time chat
+- 📎 File sharing
+- 🖼️ Profile pictures
+- 🔐 End-to-end encryption
+- 📱 Improved background call handling
+- 🌐 TURN server support
+- 🔔 Advanced notification controls
+- 📈 Call analytics
+
+---
+
+# 📸 Project Highlights
+
+| Feature | Status |
+|---|---|
+| 🔐 Firebase Authentication | ✅ Completed |
+| 👥 Contacts | ✅ Completed |
+| 🔎 User Search | ✅ Completed |
+| 📞 Audio Calling | ✅ Completed |
+| 🎥 Video Calling | ✅ Completed |
+| 🔔 Push Notifications | ✅ Completed |
+| 📊 Call History | ✅ Completed |
+| 🟢 Online Status | ✅ Completed |
+| ☀️ Light Mode | ✅ Completed |
+| 🌙 Dark Mode | ✅ Completed |
+| 📱 Android Release APK | ✅ Completed |
+
+---
+
+# 👨‍💻 Developer
+
+| 👤 Developer | 💼 Role | 🛠️ Expertise |
 |---|---|---|
-|**Rohit Kashyap** | Flutter Developer | Mobile Application Development |#   C o n n e c t _ c a l l i n g _ a p p 
- 
- 
+| **Rohit Kashyap** | Flutter Developer | Mobile Application Development |
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving the repository a ⭐ on GitHub.
+
+<p align="center">
+  <b>Built with ❤️ using Flutter, Firebase & WebRTC</b>
+</p>
+
+<p align="center">
+  📞 <b>Connect • Communicate • Call</b> 🎥
+</p>
