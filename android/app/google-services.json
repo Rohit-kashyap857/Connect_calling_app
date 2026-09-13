@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "632545682579",
+    "project_id": "spotify-a4c66",
+    "storage_bucket": "spotify-a4c66.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632545682579:android:ba263923e418d640aa1966",
+        "android_client_info": {
+          "package_name": "com.example.connect_call"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632545682579-eut33jtb2qt1kurg78d15li5pg5umduh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsj3zCO4arM_pn67vr4i6hULp_HnINsOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632545682579-eut33jtb2qt1kurg78d15li5pg5umduh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "632545682579-jdf0vgmtph551vqqkk8q279ggs69n30r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.spotifyClone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632545682579:android:b31fd3d79d107afeaa1966",
+        "android_client_info": {
+          "package_name": "com.example.spotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632545682579-eut33jtb2qt1kurg78d15li5pg5umduh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsj3zCO4arM_pn67vr4i6hULp_HnINsOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632545682579-eut33jtb2qt1kurg78d15li5pg5umduh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "632545682579-jdf0vgmtph551vqqkk8q279ggs69n30r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.spotifyClone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632545682579:android:a2bf3fff55efabd7aa1966",
+        "android_client_info": {
+          "package_name": "com.example.spotify_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632545682579-eut33jtb2qt1kurg78d15li5pg5umduh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsj3zCO4arM_pn67vr4i6hULp_HnINsOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632545682579-eut33jtb2qt1kurg78d15li5pg5umduh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "632545682579-jdf0vgmtph551vqqkk8q279ggs69n30r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.spotifyClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
